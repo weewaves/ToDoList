@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  height: 80px;
+  background: pink;
+  color: green;
+  position: absolute;
+}
+
+ul {
+  line-height: 80px;
+  margin: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul::after {
+  clear: both;
+}

@@ -1,0 +1,33 @@
+.table-row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-bottom: dashed 1px gray;
+  font-size: 20px;
+}
+
+.table-row > div:first-child {
+  flex-grow: 1;
+}
+
+.is-done {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.table-row > div:nth-child(2) {
+  flex-grow: 8;
+  color: green;
+}
+
+.table-row i {
+  padding: 2px 5px;
+}
+
+.table-row i:hover {
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  border: solid 1px lightgray;
+  background: lightgray;
+}

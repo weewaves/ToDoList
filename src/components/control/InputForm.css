@@ -1,0 +1,20 @@
+.input-form-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-form-wrapper > div:first-child {
+  flex-grow: 10;
+}
+
+.input-form-wrapper > div:last-child {
+  flex-grow: 2;
+}
+
+.input-form-wrapper input {
+  margin: 2px;
+  width: 95%;
+  font-size: 20px;
+  color: green;
+  border-color: pink;
+}
